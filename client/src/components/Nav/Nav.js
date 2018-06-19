@@ -1,9 +1,10 @@
 import React from "react";
+import './nav.css'
 
 const Nav = () => (
-  <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+  <nav className="navbar navbar-expand-lg">
     <a className="navbar-brand" href="/">
-      React Reading List
+      NYT Article Search
     </a>
   </nav>
 );

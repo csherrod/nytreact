@@ -1,13 +1,12 @@
-const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
 
 const articleSchema = new Schema({
-  _id: { type: Schema.Types.ObjectId, required: true },
   title: { type: String, required: true },
-  url: { type: String, required: true },
-  date: { type: Date, default: Date.now }
-}, { _id: false });
+  date: { type: String, required: true },
+  url: String
+})
 
-const Article = mongoose.model("Article", articleSchema);
+const Article = mongoose.model('Article', articleSchema)
 
-module.exports = Article;
+module.exports = Article
