@@ -51,7 +51,8 @@ module.exports = {
       url: 'https://api.nytimes.com/svc/search/v2/articlesearch.json',
       qs: {
         'api-key': APIKEY,
-        'fq': searchterms
+        'fq': searchterms,
+        'sort': 'newest'
       }
     }, function (err, response, body) {
       body = JSON.parse(body)
