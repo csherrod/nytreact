@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
-// Add routes, both API and view
+// Add routes, both API and 
 app.use(routes);
 
 // Connect to the Mongo DB
