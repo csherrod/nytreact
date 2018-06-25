@@ -1,3 +1,52 @@
+## Project Title: NYT React
+
+If you want to check out a working version of this site click [here](https://arcane-fortress-64338.herokuapp.com)
+
+## Prerequisites
+
+You need to have working knowledge of HTML, CSS, Bootstrap, Javascript, NPM or Yarn and React.
+
+## Getting Started
+1.  Click the green clone button in the top right corner of the page to get a URL to use to clone to your local machine. You can also download a zip file of the project to save to your local machine.
+2.  Create a new folder on your local machine and then cd into that new folder and run:
+`create-react-app my-app`
+(Replace “my-app” with the name you would like to call your app). For example, `LocalMachine:NewFolder UserName$ create-react-app app`
+` LocalMachine:NewFolder UserName$ cd app`
+` LocalMachine:appUserName$ yarn start` or ` LocalMachine:app UserName$ npm start`
+3. This will build out a new working React app on your local machine and get it start a local server for development.
+4. Going back to the terminal. Open a new instance of terminal and cd back into the new app. Once there you can run ` LocalMachine:app UserName$ ls` to see a list of all the files that have been created.
+5. You need to cd into the client folder and us the `ls` command again. For example, 
+` LocalMachine:app UserName$ cd client`.
+6. Now run the `ls` command again. You should see a list of folders and one that is named src. In order to duplicate this project you will need to copy and paste the src folder in that directory from this repo with the src folder that you just created. 
+7. The local server should now be displaying the NYT React Homepage on your local server. :bowtie:
+8. Feel free to make changes and modifications to any of the within this particular repo. I also like to see how different people can make the project once they get inside the code so feel free to contact me to share your handy work.
+9. Down below the contact information there is lot more information on React and create-react-app if you have more questions.
+7. Have fun!
+
+## Built With
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Makes the basic layout
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Makes it pretty
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Makes it interactive
+* [Bootstrap](https://getbootstrap.com/) - CSS Framework to make site mobile responsive
+* [NPM](https://www.npmjs.com/) - Javascript Package manager
+*[Yarn](https://yarnpkg.com/lang/en/) - Different Package manager 
+* [React](https://reactjs.org/– Component based Javascript library to run **_fast_**.
+* [Create-React-App](https://github.com/facebook/create-react-app) - Creates React apps with no build configuration
+
+## Author(s)
+* **Cody Sherrod** - [csherrod](https://github.com/csherrod)
+
+## Issues
+* No known issues at this time
+
+* **If you would like to report an issue please feel free to send me an email [here](mailto:w.cody.sherrod@gmail.com)**
+
+## Contact Information
+* [Email](mailto:w.cody.sherrod@gmail.com)
+* [LinkedIn](www.linkedin.com/in/cody-sherrod)
+
+## Start of Create-React-App formal README.md
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
