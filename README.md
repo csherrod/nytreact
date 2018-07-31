@@ -2,6 +2,8 @@
 
 If you want to check out a working version of this site click [here](https://arcane-fortress-64338.herokuapp.com)
 
+![NYT React](/NYT-React.png)
+
 ## Prerequisites
 
 You need to have working knowledge of HTML, CSS, Bootstrap, Javascript, NPM or Yarn and React.
